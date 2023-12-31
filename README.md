@@ -1,8 +1,8 @@
 Agent
 =====
 
-[![Latest Stable Version](https://img.shields.io/packagist/v/phattarachai/laravel-mobile-detect.svg)](https://packagist.org/packages/phattarachai/laravel-mobile-detect)
-[![Total Downloads](https://img.shields.io/packagist/dt/phattarachai/laravel-mobile-detect.svg)](https://packagist.org/packages/phattarachai/laravel-mobile-detect)
+[![Latest Stable Version](https://img.shields.io/packagist/v/Luscalopez/laravel-mobile-detect.svg)](https://packagist.org/packages/Luscalopez/laravel-mobile-detect)
+[![Total Downloads](https://img.shields.io/packagist/dt/Luscalopez/laravel-mobile-detect.svg)](https://packagist.org/packages/Luscalopez/laravel-mobile-detect)
 
 Thanks  [jenssegers/agent](https://github.com/jenssegers/agent) for the original version.
 
@@ -16,7 +16,7 @@ Installation
 Install using composer:
 
 ```bash
-composer require phattarachai/laravel-mobile-detect
+composer require Luscalopez/laravel-mobile-detect
 ```
 
 Laravel (optional)
@@ -25,13 +25,13 @@ Laravel (optional)
 Add the service provider in `config/app.php`:
 
 ```php
-Phattarachai\LaravelMobileDetect\AgentServiceProvider::class,
+Luscalopez\LaravelMobileDetect\AgentServiceProvider::class,
 ```
 
 And add the Agent alias to `config/app.php`:
 
 ```php
-'Agent' => Phattarachai\LaravelMobileDetect\Facades\Agent::class,
+'Agent' => Luscalopez\LaravelMobileDetect\Facades\Agent::class,
 ```
 
 Basic Usage
@@ -40,7 +40,7 @@ Basic Usage
 Start by creating an `Agent` instance (or use the `Agent` Facade if you are using Laravel):
 
 ```php
-use Phattarachai\LaravelMobileDetect\Agent;
+use Luscalopez\LaravelMobileDetect\Agent;
 
 $agent = new Agent();
 ```
@@ -191,10 +191,10 @@ line:
 💻 รับงาน Freelance หากมีโปรเจคที่น่าสนใจ หาทีมงานร่วมงาน หาโปรแกรมเมอร์ที่มีประสบการณ์ช่วยแก้โจทย์ที่ท้าทาย
 ติดต่อมาได้เลยครับ ยินดีให้ความช่วยเหลือและรอสร้างผลงานที่ดีร่วมกันครับ
 
-📄 เข้ามาดูประวัติและผลงานได้ที่ https://phattarachai.dev
+📄 เข้ามาดูประวัติและผลงานได้ที่ https://Luscalopez.dev
 
-<a href="https://phattarachai.dev">
-    <img src="/art/phattarachai.dev.png" alt="https://phattarachai.dev" width="419px" />
+<a href="https://Luscalopez.dev">
+    <img src="/art/Luscalopez.dev.png" alt="https://Luscalopez.dev" width="419px" />
 </a>
 
 ## License

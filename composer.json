@@ -11,12 +11,12 @@
     "mobile",
     "desktop"
   ],
-  "homepage": "https://github.com/phattarachai/laravel-moibile-detect",
+  "homepage": "https://github.com/Luscalopez/laravel-moibile-detect",
   "license": "MIT",
   "authors": [
     {
-      "name": "Phattarachai Chaiimongkol",
-      "homepage": "https://phattarachai.dev"
+      "name": "Luscalopez Chaiimongkol",
+      "homepage": "https://Luscalopez.dev"
     }
   ],
   "require": {
@@ -30,7 +30,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Phattarachai\\LaravelMobileDetect\\": "src/"
+      "Luscalopez\\LaravelMobileDetect\\": "src/"
     }
   },
   "extra": {
@@ -39,10 +39,10 @@
     },
     "laravel": {
       "providers": [
-        "Phattarachai\\LaravelMobileDetect\\AgentServiceProvider"
+        "Luscalopez\\LaravelMobileDetect\\AgentServiceProvider"
       ],
       "aliases": {
-        "Agent": "Phattarachai\\LaravelMobileDetect\\Facades\\Agent"
+        "Agent": "Luscalopez\\LaravelMobileDetect\\Facades\\Agent"
       }
     }
   },

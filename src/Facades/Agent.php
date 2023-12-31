@@ -1,6 +1,6 @@
 <?php
 
-namespace Phattarachai\LaravelMobileDetect\Facades;
+namespace Luscalopez\LaravelMobileDetect\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
@@ -22,7 +22,7 @@ use Illuminate\Support\Facades\Facade;
  * @method static string|bool robot(string|null $userAgent = null)
  * @method static bool isRobot(string|null $userAgent = null)
  * @method static string deviceType(null $userAgent = null, null $httpHeaders = null)
- * @method static string|float|false version($propertyName, $type = \Phattarachai\LaravelMobileDetect\Agent::VERSION_TYPE_STRING)
+ * @method static string|float|false version($propertyName, $type = \Luscalopez\LaravelMobileDetect\Agent::VERSION_TYPE_STRING)
  * @method static string getScriptVersion()
  * @method static void setHttpHeaders(array $httpHeaders = null)
  * @method static array getHttpHeaders()
@@ -50,7 +50,7 @@ use Illuminate\Support\Facades\Facade;
  * @method static float prepareVersionNo(string $ver)
  * @method static string mobileGrade()
  *
- * @see \Phattarachai\LaravelMobileDetect\Agent
+ * @see \Luscalopez\LaravelMobileDetect\Agent
  */
 
 class Agent extends Facade

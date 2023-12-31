@@ -1,6 +1,6 @@
 <?php
 
-use Phattarachai\LaravelMobileDetect\Agent;
+use Luscalopez\LaravelMobileDetect\Agent;
 use PHPUnit\Framework\TestCase;
 
 class AgentTest extends TestCase

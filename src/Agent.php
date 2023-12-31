@@ -1,6 +1,6 @@
 <?php
 
-namespace Phattarachai\LaravelMobileDetect;
+namespace Luscalopez\LaravelMobileDetect;
 
 use BadMethodCallException;
 use Jaybizzle\CrawlerDetect\CrawlerDetect;
